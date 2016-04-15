@@ -4,7 +4,7 @@ docker-chmod
 Minimal image containing a statically linked chmod. Intended for use in a flow
 like
 
-    FROM aidanhs/chmod
+    FROM weahead/chmod
     ADD <URL> /output
     RUN ["/chmod", "+x", "/output"]
     ENTRYPOINT ["/output"]
